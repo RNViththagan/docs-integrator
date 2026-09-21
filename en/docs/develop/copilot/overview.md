@@ -72,6 +72,18 @@ Copilot can run your integrations and read the runtime logs to debug issues as t
 
 ![Copilot debugging an integration by reproducing the failing request, inspecting the HTTP response and service logs, and identifying a case-sensitivity bug in the team filter.](/img/develop/copilot/debugging-using-service-logs.png)
 
+## Follow-up suggestions
+
+When Copilot finishes a response, it offers a few follow-up suggestions as chips below the message. Each chip is a short label for a sensible next step, such as adding a test, handling an error case, or running the service.
+
+Select a chip to place its full prompt in the input bar. Copilot doesn't send it, so you can reword the prompt or add detail first.
+
+![Follow-up suggestion chips below a Copilot response.](/img/develop/copilot/followup-suggestions.png)
+
+Suggestions appear under the most recent response only, and they clear when you send your next message. If a response stops part way, Copilot offers **Continue**. If it fails, Copilot offers **Try again**.
+
+To turn suggestions off, clear `ballerina.copilot.followupSuggestions` in your IDE settings.
+
 ## Project instructions
 
 Add an `AGENTS.md` file to your project root to give Copilot standing instructions for the workspace, such as preferred libraries, naming and style rules, or error-handling patterns. Copilot reads the file as project context and applies the relevant instructions on every request.
