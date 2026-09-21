@@ -117,14 +117,24 @@ When a skill is enabled and your request matches its trigger, Copilot applies th
 
 ![The prompt asking whether to enable a matching skill for the current request.](/img/develop/copilot/enable-skill-prompt.png)
 
-## Chat history
+## Chat sessions
 
-Copilot saves each project's conversation, so it stays available after you reload or restart the IDE. History is tied to the project's location on disk, so it no longer appears if you move, rename, or open the project from a different path.
+Each conversation with Copilot is a session. Copilot saves every session for the project, so your work stays available after you reload or restart the IDE. Sessions are tied to the project's location on disk, so they no longer appear if you move or rename the project, or open it from a different path.
 
-You can also reset the conversation in two ways:
+Select **Chats** in the panel header to list the project's sessions, grouped by when you last used them. Each row shows the session name, the number of prompts it holds, and when it was last updated. Select a row to switch to that session.
 
-- **New Chat**: Clears the current project's history and starts a fresh conversation.
-- **Restore Checkpoint**: Rolls your integration back to a saved checkpoint, undoing the changes Copilot made afterward and removing the later prompts.
+![The Chats list showing the saved sessions for a project.](/img/develop/copilot/chat-sessions.png)
+
+From this list you can:
+
+- **Start a session**: Select **New Chat**. Your existing sessions are kept.
+- **Find a session**: Type in **Search sessions** to filter the list by name.
+- **Rename a session**: Select the edit icon on the row. Copilot names a session after its first prompt, so renaming helps when several sessions begin alike. If you clear the name, Copilot restores the original.
+- **Delete a session**: Select the delete icon, then confirm.
+
+You can't switch sessions while Copilot is generating a response. Finish or stop the response first.
+
+To undo what Copilot changed, select **Restore Checkpoint**. It rolls your integration back to a saved checkpoint and removes the prompts that came after it.
 
 ## Slash commands
 
