@@ -80,9 +80,11 @@ Select a chip to place its full prompt in the input bar. Copilot doesn't send it
 
 ![Follow-up suggestion chips below a Copilot response.](/img/develop/copilot/followup-suggestions.png)
 
-Suggestions appear under the most recent response only, and they clear when you send your next message. If a response stops part way, Copilot offers **Continue**. If it fails, Copilot offers **Try again**.
+Suggestions appear under the most recent response only, and they clear when you send your next message.
 
-To turn suggestions off, clear `ballerina.copilot.followupSuggestions` in your IDE settings.
+:::note
+To turn suggestions off, set `ballerina.copilot.followupSuggestions` to `false` in your IDE settings.
+:::
 
 ## Project instructions
 
