@@ -64,7 +64,7 @@ Organizations can configure Copilot to run using their own model provider accoun
 ### Google Vertex AI
 
 - Copilot can also run using Claude models deployed on Google Vertex AI.
-- Requires an active Claude deployment in your Google Cloud project.
+- Requires an active Anthropic Claude deployment in your Google Cloud project.
 - Users must provide the GCP project ID, the location of the deployment, and the path to a service account JSON key file.
 
 ## Open source
