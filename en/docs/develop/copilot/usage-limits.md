@@ -21,19 +21,15 @@ The Copilot panel header shows **Usage** with how much of your limit you have us
 
 Copilot updates this each time you open the panel and after every response, so the figure is always current.
 
-If the indicator shows **N/A**, Copilot could not read your usage. This is usually a temporary connection issue, and Copilot tries again with your next response.
-
 ## When you reach the limit
 
 When you reach your limit, Copilot pauses and displays a message above the chat box with the date and time your usage resets.
 
 ![The usage limit message above the Copilot chat box.](/img/develop/copilot/usage-limit-notice.png)
 
-Until your usage resets:
+Until your usage resets, Copilot's AI services are unavailable and you cannot send new messages.
 
-- The chat box is unavailable, so you cannot send a new message.
-- Follow-up suggestions are hidden.
-- A refresh button appears beside **Usage**. Select it to check your usage again, for example after it resets or after the team grants you more.
+A refresh button appears beside **Usage**. Select it to check your usage again, for example after your usage resets or after the team grants you more.
 
 Your project is unaffected. Reaching the limit only pauses new messages, and everything Copilot has already built remains in place.
 
