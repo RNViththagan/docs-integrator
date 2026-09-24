@@ -11,9 +11,17 @@ If you have already [signed in to WSO2 Integrator](../../get-started/setup/local
 
 ## Sign in from the Copilot welcome screen
 
-1. Open your integration's overview and select the Copilot orb in the bottom-right corner. Select it once to open a quick chat, or double-click it to open the full Copilot panel. When a Ballerina file or diagram is open, you can also select the **Open WSO2 Integrator Copilot** icon in the editor toolbar.
+1. Open your integration's overview to start working with Copilot.
 
-   ![The WSO2 Integrator Copilot orb on the integration overview.](/img/develop/copilot/copilot-orb.png)
+   - **New integration**: The overview shows the Copilot composer. Describe what you want to build and send it, or pick one of the examples under **Try one of these**. To open the Copilot panel without a prompt, select the Copilot orb above the composer.
+
+     ![The Copilot composer on the overview of a new integration.](/img/develop/copilot/copilot-composer.png)
+
+   - **Integration with artifacts**: Select the Copilot orb in the bottom-right corner. Select it once for a quick chat, or double-click it to open the full Copilot panel.
+
+     ![The WSO2 Integrator Copilot orb on the integration overview.](/img/develop/copilot/copilot-orb.png)
+
+   When a Ballerina file or diagram is open, you can also select the **Open WSO2 Integrator Copilot** icon in the editor toolbar.
 
 2. The Copilot panel opens on the welcome screen with the available sign-in options.
 
